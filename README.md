@@ -53,7 +53,7 @@ Settings extends model {
 }
 ```
 
-And define static variable `$defaults` in your setting model class.
+And define variable `$defaults` in your setting model class.
 
 You can also define constants for better readable values and use autocomplete in your IDE
 
@@ -70,7 +70,7 @@ class Settings extends Model
 
     const PDF_PHONE_THREE = 'pdf_phone_three';
 
-    public static $defaults = [
+    public $defaults = [
         self::SEZNAM_CID => '100000000',
         self::PDF_PHONE_ONE => '+420 603 603 603',
         self::PDF_PHONE_TWO => '+420 723 723 723',
