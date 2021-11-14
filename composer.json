@@ -1,0 +1,24 @@
+{
+    "name": "dimti/bettersettings-plugin",
+    "type": "october-plugin",
+    "description": "Behaviour for OctoberCMS settings model with default values",
+    "keywords": [
+        "october",
+        "cms",
+        "settings",
+        "backend",
+        "default",
+        "value",
+        "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Demidov",
+            "email": "demidov@dimti.ru"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
